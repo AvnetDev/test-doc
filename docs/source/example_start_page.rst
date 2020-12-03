@@ -15,9 +15,11 @@ Section 1
 
 Section 1.1
 ^^^^^^^^^^^
+..
+    The following 1.1.1 section will render smaller text in VS code but same size text in readthedocs.io
 Section 1.1.1
 ~~~~~~~~~~~~~
-Yada yada yada
+Yada yada yada - This would be a paragraph
 
 Inline code (Matlab) example:
 
@@ -53,7 +55,7 @@ Reference to a different .rst with text: :doc:`Matt's page <./matt_page>`
 Pictures:
 
 ..
-    for 'image' height, scale, align are optional
+    For '.. image::' height, scale, align are optional
 .. image:: images/f5m.png
     :height: 200px
     :scale: 75%
