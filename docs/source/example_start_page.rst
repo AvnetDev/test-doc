@@ -6,7 +6,7 @@ Sub-Title
 ---------
 ..
     This is a COMMENT to explain the following line is used to create a reference to a line of the document
-.. _section-1:
+.. _reference_label-section-1:
 
 Section 1
 =========
@@ -19,7 +19,7 @@ Section 1.1.1
 ~~~~~~~~~~~~~
 Yada yada yada
 
-Some inline code (Matlab) example:
+Inline code (Matlab) example:
 
 .. code-block:: matlab
 
@@ -27,7 +27,7 @@ Some inline code (Matlab) example:
     	y = x;
     end
 
-Some inline shell commands example:
+Inline shell command example:
 
 .. code-block:: console
 
@@ -38,9 +38,13 @@ Http link example: https://ultra96-pynq.readthedocs.io
 
 Hyperlink to external page example: `Click me <https://www.avnet.com>`_
 
-Reference to section in same document: :ref:`section-1`
+Reference to section in same document: :ref:`reference_label-section-1`
 
 Reference to section in same document: :ref:`section-1.1`
+
+Reference to a different .rst file: :doc:`./matt_page`
+
+Reference to a different .rst with text: :doc:`Matt's page <./matt_page>`
 
 **Bold**
 
@@ -48,14 +52,13 @@ Reference to section in same document: :ref:`section-1.1`
 
 Pictures:
 
+..
+    for 'image' height, scale, align are optional
 .. image:: images/f5m.png
+    :height: 200px
+    :scale: 75%
     :align: center
 
-.. image:: images/f5m.png
-    :align: left
-
-.. image:: images/f5m.png
-    :align: right
 
 This is an inline Math equation:
 
@@ -71,3 +74,13 @@ Bullet list:
 
 * item a
 * item b
+
+Movie time:
+
+.. raw:: html
+
+    <embed>
+         <iframe width="560" height="315" src="https://www.youtube.com/watch?v=J_h2zxNdX0Q" frameborder="0" allowfullscreen></iframe>
+         </br>
+         </br>
+    </embed>
