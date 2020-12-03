@@ -7,7 +7,10 @@ Content will be added just for practice...
    :maxdepth: 2
    :hidden:
    
-   example_start_page
-   matt_page
-   luc_page
-   stefan_page
+:doc:`Example Start Page <./example_start_page>`
+
+:doc:`Matt's Page <./matt_page>`
+
+:doc:`Stefan's Page <./stefan_page>`
+
+:doc:`Luc's Page <./luc_page>`
