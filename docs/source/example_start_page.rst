@@ -1,82 +1,73 @@
-Example Start Page (Title - Heading 1)
-==================
+*****
+Title
+*****
+---------
+Sub-Title
+---------
+..
+    This is a COMMENT to explain the following line is used to create a reference to a line of the document
+.. _section-1:
 
-## Example (Chapter - Heading 2)
+Section 1
+=========
 
-### Example (sub-paragraph - Heading 3)
+.. _section-1.1:
 
-#### Example (sub-sub-paragraph - Heading 4)
-
+Section 1.1
+^^^^^^^^^^^
+Section 1.1.1
+~~~~~~~~~~~~~
 Yada yada yada
-
-
 
 Some inline code (Matlab) example:
 
-.. code:: matlab
+.. code-block:: matlab
 
     function [y] = convert(x)
     	y = x;
     end
 
+Some inline shell commands example:
+
+.. code-block:: console
+
+    rm -rf
 
 
-Http link example:
+Http link example: https://ultra96-pynq.readthedocs.io
 
-https://ultra96-pynq.readthedocs.io
+Hyperlink to external page example: `Click me <https://www.avnet.com>`_
 
+Reference to section in same document: :ref:`section-1`
 
-
-Hyperlink example:
-
-[Click me](https://www.avnet.com)
-
-
+Reference to section in same document: :ref:`section-1.1`
 
 **Bold**
 
-<u>Underline</u>
-
-
+*Italics*
 
 Pictures:
 
-![]()
+.. image:: images/f5m.png
+    :align: center
 
-<!--This is how to add a comment to the text that is not shown in the renderer-->
+.. image:: images/f5m.png
+    :align: left
 
-This is an in line Math equation:
-$$
-y = \int_{a}^{b}{f(x) dx}
-$$
+.. image:: images/f5m.png
+    :align: right
+
+This is an inline Math equation:
+
+.. math:: y = \int_{a}^{b}{f(x) dx}
+
 Ordered list:
 
 1. item a
+    1.1 item a.1
 2. item b
-   1. item c
-
-
 
 Bullet list:
 
-- item a
-- item b
-  - item c
-    - item d
-
-
-
-| Clock Rate | Color | Weight |
-| ---------- | ----- | ------ |
-| 100MHz     | Red   | 10lbs  |
-| 110MHz     | Blue  | 11lbs  |
-| 120MHz     | Green | 12lbs  |
-
-
-
-
-
-
-
-
-
+* item a
+* item b
