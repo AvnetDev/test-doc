@@ -1,2 +1,2 @@
 # test-doc
-This is for a documentation trail run.
+This is for a documentation trial run.
