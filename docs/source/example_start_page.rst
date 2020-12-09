@@ -19,7 +19,7 @@ Section 1.1
     The following 1.1.1 section will render smaller text in VS code but same size text in readthedocs.io
 Section 1.1.1
 ~~~~~~~~~~~~~
-Yada yada yada - This would be a paragraph
+Yada yada yada YADA - This would be a paragraph
 
 Inline code (Matlab) example:
 
