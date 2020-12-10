@@ -61,8 +61,8 @@ Pictures:
     :scale: 75%
     :align: center
     :alt: this is text for when your mouse hovers over the image
- 
- .. figure:: images/f5m.png
+
+.. figure:: images/f5m.png
     :width: 200px
     :align: center
     :alt: alternate text it is indeed
