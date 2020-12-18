@@ -19,7 +19,7 @@ Section 1.1
     The following 1.1.1 section will render smaller text in VS code but same size text in readthedocs.io
 Section 1.1.1
 ~~~~~~~~~~~~~
-Yada yada yada - This would be a paragraph
+Yada yada yada YADA - This would be a paragraph
 
 Inline code (Matlab) example:
 
@@ -60,7 +60,15 @@ Pictures:
     :height: 200px
     :scale: 75%
     :align: center
+    :alt: this is text for when your mouse hovers over the image
 
+.. figure:: images/f5m.png
+    :width: 200px
+    :align: center
+    :alt: alternate text it is indeed
+    :figclass: align-center
+
+    **figure** is like image but with a caption
 
 This is an inline Math equation:
 
@@ -86,3 +94,43 @@ Movie time:
          </br>
          </br>
     </embed>
+
+.. note::  This is a **note** box.
+
+.. warning:: note the space between the directive and the text
+
+.. sidebar:: Sidebar Title
+    :subtitle: Optional Sidebar Subtitle
+
+    Subsequent indented lines comprise
+    the body of the sidebar, and are
+    interpreted as body elements.
+
++---------+---------+-----------+
+| 1       |  2      |  3        |
++---------+---------+-----------+
+
++---------------------+---------+---+
+|1                    |        2| 3 |
++---------------------+---------+---+
+
++------------+------------+-----------+
+| Header 1   | Header 2   | Header 3  |
++============+============+===========+
+| body row 1 | column 2   | column 3  |
++------------+------------+-----------+
+| body row 2 | Cells may span columns.|
++------------+------------+-----------+
+| body row 3 | Cells may  | - Cells   |
++------------+ span rows. | - contain |
+| body row 4 |            | - blocks. |
++------------+------------+-----------+
+
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
+False  False  False
+True   False  True
+=====  =====  ======
