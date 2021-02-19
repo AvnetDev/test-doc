@@ -185,6 +185,9 @@ You will often want to syncronize your fork with the upstream repo in order to g
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 
 3. Right-click the top-level folder **rfsoc-board-docs** and select **TortoiseGit > Pull ...**
+
+.. note:: You must commit any changes you've made to your local /dev branch before pulling from the upstream /dev branch.
+
 4. In the popup window use the pulldown menu to select **upstream**, then click OK
 
 .. image:: images/tortoise_pull_upstream.jpg
